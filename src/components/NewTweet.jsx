@@ -34,7 +34,8 @@ export class NewTweet extends Component {
           className="new-tweet-input"
           placeholder="What's happening?"
           data-testid="new-tweet-input"
-          onChange={({ target: { value } }) => this.setState({ text: value })}
+          value={this.state.text}
+          onChange={}
         />
         <button
           className="new-tweet-button"
